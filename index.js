@@ -4,7 +4,7 @@ console.log(hours)
 if (hours === null) {
   alert('Шкода, що ви не захотіли ввести кількість годин.');
   console.log(hours)
-} else if (isNaN(hours) || hours.trim() == '' || hours <= 0) {
+} else {
   while (isNaN(hours) || hours.trim() == '' || hours <= 0) {
     hours = prompt('Помилка! Ви ввели не число, або 0, або залишили поле пустим. Будь ласка, введіть число від 1.');
     console.log(hours)
